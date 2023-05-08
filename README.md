@@ -1,4 +1,4 @@
-# __Second Projeckt__
+# __Second Project__
  Starting a project from the main.py file
 
 ## Console interface
