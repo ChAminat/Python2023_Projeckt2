@@ -1,6 +1,9 @@
 # __Second Project__
- Starting a project from the main.py file
+Для работы с проектом нужно запустить файл main.py, затем открыть бот BankBot2023 в telegram.
+Далее следовать указаниям бота, справочная информация доступна по команде /help
 
+Примечание: изначально проект был консольным (закомментированная функция run), поэтому из web его можно легко вернуть в 
+первоначальное состояние. Сохранившийся список команд из консольки: 
 ## Console interface
 ### ___commands for console working:___
 - to exit from your working space - ___exit___
@@ -16,4 +19,4 @@
 
 ## Web interface
 ### ___commands for bot working:___
-- in dev
+- описание всех команд в боте
