@@ -163,6 +163,7 @@ class WorkingSpace:
         error = 0
         if bank_name not in available_banks.keys():
             error = 1
+            return error, "bank is not in a system"
         my_account = available_banks[bank_name].find_user(login, password)
         if my_account in EX_CODE_MESSAGES.keys():  # changes
             error = 1

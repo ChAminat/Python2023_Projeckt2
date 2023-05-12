@@ -36,13 +36,14 @@ class SystemAccount:
     __password = ""
     login = ""
     MyAccountList = {}
-    UserID = str(uuid.uuid4())
+    UserID = ""
 
     def __init__(self, client, bank, login, password):
         self.user = UserInfo(client)
         self.bank = bank
         self.__password = password
         self.login = login
+        self.UserID = str(uuid.uuid4())
 
     def edit_sys_account(self, address, passport_data):
         self.user.userAddress = address
